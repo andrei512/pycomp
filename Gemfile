@@ -32,6 +32,11 @@ gem 'spring',        group: :development
 # Makes things pretty
 gem 'foundation-rails'
 
+# Users, Permisions, Roles and Login With Retina scan
+gem 'devise'
+gem 'cancan'
+gem 'rolify'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
