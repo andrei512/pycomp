@@ -1,6 +1,8 @@
 
 <div id="editor-container">
-	<div id="editor"><%= code%></div>
+	<div id="editor"></div>
 </div>
 
+<%= content_tag :div, id: "defaultCode", data: {code: code} do %>
+<% end %>
 <%= javascript_include_tag "editor.js" %>

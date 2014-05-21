@@ -16,5 +16,6 @@
 //= require turbolinks
 //= require_tree .
 //= require ace/ace
+//= require ace/ext-language_tools
 
 $(function(){ $(document).foundation(); });
