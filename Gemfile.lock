@@ -129,11 +129,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
   ace-rails-ap
-=======
   cancan
->>>>>>> e7224550fcded2d099d2cafbae48da1cbfa3c5f6
   coffee-rails (~> 4.0.0)
   devise
   foundation-rails
