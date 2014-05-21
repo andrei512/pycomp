@@ -24,7 +24,11 @@
       <section class="top-bar-section">
         <!-- Right Nav Section -->
         <ul class="right">
-            <li><%= link_to "Login/Sign Up", user_session_url %></li>
+            <% if user_signed_in? %>
+              <li><%= link_to "Logout", destroy_user_session_path, :method=>'delete' %></li>
+            <% else %>
+              <li><%= link_to "Login/Sign Up", user_session_path %></li>
+            <% end %>
         </ul>
 
         <!-- Left Nav Section -->
