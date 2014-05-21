@@ -15,3 +15,20 @@
  *= require foundation_and_overrides
 
  */
+
+ #editor-container {
+    position: relative;
+    height: 400px;
+    width: 800px;
+}
+
+
+#editor { 
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 300;
+        height: 300;
+    }

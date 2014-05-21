@@ -15,5 +15,6 @@
 //= require foundation
 //= require turbolinks
 //= require_tree .
+//= require ace/ace
 
 $(function(){ $(document).foundation(); });

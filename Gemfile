@@ -32,6 +32,8 @@ gem 'spring',        group: :development
 # Makes things pretty
 gem 'foundation-rails'
 
+gem 'ace-rails-ap'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
