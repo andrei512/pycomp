@@ -32,7 +32,14 @@ gem 'spring',        group: :development
 # Makes things pretty
 gem 'foundation-rails'
 
+# Ace Editor
 gem 'ace-rails-ap'
+
+# Users, Permisions, Roles and Login With Retina scan
+gem 'devise'
+gem 'cancan'
+gem 'rolify'
+>>>>>>> e7224550fcded2d099d2cafbae48da1cbfa3c5f6
 
 # Use unicorn as the app server
 # gem 'unicorn'
